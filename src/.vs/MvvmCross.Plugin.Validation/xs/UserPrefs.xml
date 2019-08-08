@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{ED743E8F-9647-4741-9467-F0F09E539BC3}|Default">
+  <MonoDevelop.Ide.ItemProperties.MvvmCross.Plugin.Validation.Android PreferredExecutionTarget="Android.Pixel_2_XL_API_27" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MvvmCross.Plugin.Validation.Android/MvxAndroidValidationService.cs">
+    <Files>
+      <File FileName="MvvmCross.Plugin.Validation.Android/MvxAndroidValidationService.cs" Line="74" Column="14" />
+      <File FileName="MvvmCross.Plugin.Validation.Android/MvxAndroidToastService.cs" Line="37" Column="2" />
+      <File FileName="../../../../../../../../Users/albert.li/.nuget/packages/mvvmcross/6.3.1/readme.txt" Line="1" Column="1" />
+      <File FileName="packages/MvvmCross.6.3.1/readme.txt" Line="1" Column="1" />
+      <File FileName="MvvmCross.Plugin.Validation.Android/MvxTextViewTextTargetBinding.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MvvmCross.Plugin.Validation" expanded="True">
+            <Node name="MvvmCross.Plugin.Validation.Android" expanded="True">
+              <Node name="Packages" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

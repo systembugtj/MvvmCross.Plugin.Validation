@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ReleaseVersion>2.2.0</ReleaseVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\bin\Debug\Mvx\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\bin\Release\Mvx\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MvvmCross" Version="6.3.1" />
+    <PackageReference Include="MvvmCross.Plugin.FieldBinding" Version="6.3.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MvvmCross.Plugin.Validation\MvvmCross.Plugin.Validation.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+</Project>

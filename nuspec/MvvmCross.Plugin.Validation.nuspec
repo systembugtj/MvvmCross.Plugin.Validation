@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>MvvmCross.Plugin.Validation</id>
-        <version>2.2.0</version>
+        <version>2.2.1</version>
         <title>MvvmCross - Validation Plugin</title>
         <authors>Agies, ZhangZihe, yozzozo</authors>
         <owners>Jerel R Hass</owners>
@@ -12,17 +12,11 @@
         <description>Gives MvvmCross multiplatform validation support using existing bindings and attributes.</description>
         <tags>mvvm mvvmcross xamarin monodroid monotouch mvvmcross.plugin</tags>
         <dependencies>
-            <dependency id="MvvmCross.Core" version="6.3.1" />
-            <dependency id="MvvmCross.Plugin.Messenger" version="6.3.1" />
             <dependency id="MvvmCross" version="6.3.1" />
-            <dependency id="MvvmCross.Platform" version="6.3.1" />
+            <dependency id="MvvmCross.Plugin.Messenger" version="6.3.1" />            
         </dependencies>
     </metadata>
     <files>
-		<!-- content -->
-        <file src="content\MonoAndroid\Bootstrap\ValidationPluginBootstrap.cs.pp" target="content\MonoAndroid\Bootstrap\ValidationPluginBootstrap.cs.pp" />
-        <file src="content\Xamarin.iOS10\Bootstrap\ValidationPluginBootstrap.cs.pp" target="content\Xamarin.iOS10\Bootstrap\ValidationPluginBootstrap.cs.pp" />
-		
 		<!-- droid -->
         <file src="..\src\bin\Release\Mvx\Droid\MvvmCross.Plugin.Validation.dll" target="lib\MonoAndroid\MvvmCross.Plugins.Validation.dll" />
         <file src="..\src\bin\Release\Mvx\Droid\MvvmCross.Plugin.Validation.Android.dll" target="lib\MonoAndroid\MvvmCross.Plugins.Validation.Droid.dll" />

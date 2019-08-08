@@ -47,6 +47,6 @@ Global
 		SolutionGuid = {63318F3D-EEF6-43BB-991F-AAE74C691EF6}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		version = 2.2.1
+		version = 2.2.2
 	EndGlobalSection
 EndGlobal

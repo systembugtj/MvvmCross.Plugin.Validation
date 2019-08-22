@@ -1,13 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <ReleaseVersion>2.2.0</ReleaseVersion>
+    <ReleaseVersion>2.2.3</ReleaseVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <OutputPath>..\bin\Debug\Mvx\netstandard2.0</OutputPath>
+    <OutputPath>..\bin\Debug\Mvx\netstandard2.0\</OutputPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <OutputPath>..\bin\Release\Mvx\netstandard2.0</OutputPath>
+    <OutputPath>..\bin\Release\Mvx\netstandard2.0\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Properties\" />

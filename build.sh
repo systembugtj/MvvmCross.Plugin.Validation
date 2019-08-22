@@ -10,6 +10,6 @@ nuget pack nuspec/MVVMCross.Plugin.Validation.nuspec
 nuget pack nuspec/MVVMCross.Plugin.Validation.ForFieldBinding.nuspec
 
 
-nuget add MvvmCross.Plugin.Validation.2.2.2.nupkg -source ~/localpackages
+nuget add MvvmCross.Plugin.Validation.2.2.3.nupkg -source ~/localpackages
 
-nuget add MvvmCross.Plugin.Validation.ForFieldBinding.2.2.2.nupkg -source ~/localpackages
+nuget add MvvmCross.Plugin.Validation.ForFieldBinding.2.2.3.nupkg -source ~/localpackages

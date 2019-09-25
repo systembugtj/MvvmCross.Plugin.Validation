@@ -75,26 +75,26 @@ namespace MvvmCross.Plugins.Validation.Demo.Droid
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7f010000
+			// aapt resource value: 0x7F010000
 			public const int MvxBind = 2130771968;
 			
-			// aapt resource value: 0x7f010004
-			public const int MvxDropDownItemTemplate = 2130771972;
+			// aapt resource value: 0x7F010001
+			public const int MvxDropDownItemTemplate = 2130771969;
 			
-			// aapt resource value: 0x7f010005
-			public const int MvxGroupItemTemplate = 2130771973;
+			// aapt resource value: 0x7F010002
+			public const int MvxGroupItemTemplate = 2130771970;
 			
-			// aapt resource value: 0x7f010003
+			// aapt resource value: 0x7F010003
 			public const int MvxItemTemplate = 2130771971;
 			
-			// aapt resource value: 0x7f010001
-			public const int MvxLang = 2130771969;
+			// aapt resource value: 0x7F010004
+			public const int MvxLang = 2130771972;
 			
-			// aapt resource value: 0x7f010006
-			public const int MvxSource = 2130771974;
+			// aapt resource value: 0x7F010005
+			public const int MvxSource = 2130771973;
 			
-			// aapt resource value: 0x7f010002
-			public const int MvxTemplate = 2130771970;
+			// aapt resource value: 0x7F010006
+			public const int MvxTemplate = 2130771974;
 			
 			static Attribute()
 			{
@@ -109,10 +109,10 @@ namespace MvvmCross.Plugins.Validation.Demo.Droid
 		public partial class Drawable
 		{
 			
-			// aapt resource value: 0x7f020000
+			// aapt resource value: 0x7F020000
 			public const int Icon = 2130837504;
 			
-			// aapt resource value: 0x7f020001
+			// aapt resource value: 0x7F020001
 			public const int splash = 2130837505;
 			
 			static Drawable()
@@ -128,11 +128,11 @@ namespace MvvmCross.Plugins.Validation.Demo.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int MvvmCrossTagId = 2131034112;
+			// aapt resource value: 0x7F030000
+			public const int MvvmCrossTagId = 2130903040;
 			
-			// aapt resource value: 0x7f050001
-			public const int MvxBindingTagUnique = 2131034113;
+			// aapt resource value: 0x7F030001
+			public const int MvxBindingTagUnique = 2130903041;
 			
 			static Id()
 			{
@@ -147,11 +147,11 @@ namespace MvvmCross.Plugins.Validation.Demo.Droid
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7f030000
-			public const int FirstView = 2130903040;
+			// aapt resource value: 0x7F040000
+			public const int FirstView = 2130968576;
 			
-			// aapt resource value: 0x7f030001
-			public const int SplashScreen = 2130903041;
+			// aapt resource value: 0x7F040001
+			public const int SplashScreen = 2130968577;
 			
 			static Layout()
 			{
@@ -166,11 +166,11 @@ namespace MvvmCross.Plugins.Validation.Demo.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
+			// aapt resource value: 0x7F050000
+			public const int ApplicationName = 2131034112;
 			
-			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			// aapt resource value: 0x7F050001
+			public const int Hello = 2131034113;
 			
 			static String()
 			{
@@ -185,7 +185,7 @@ namespace MvvmCross.Plugins.Validation.Demo.Droid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f060000
+			// aapt resource value: 0x7F060000
 			public const int Theme_Splash = 2131099648;
 			
 			static Style()
@@ -201,9 +201,10 @@ namespace MvvmCross.Plugins.Validation.Demo.Droid
 		public partial class Styleable
 		{
 			
+			// aapt resource value: { 0x7F010000,0x7F010004 }
 			public static int[] MvxBinding = new int[] {
 					2130771968,
-					2130771969};
+					2130771972};
 			
 			// aapt resource value: 0
 			public const int MvxBinding_MvxBind = 0;
@@ -211,33 +212,37 @@ namespace MvvmCross.Plugins.Validation.Demo.Droid
 			// aapt resource value: 1
 			public const int MvxBinding_MvxLang = 1;
 			
+			// aapt resource value: { 0x7F010006 }
 			public static int[] MvxControl = new int[] {
-					2130771970};
+					2130771974};
 			
 			// aapt resource value: 0
 			public const int MvxControl_MvxTemplate = 0;
 			
+			// aapt resource value: { 0x7F010002 }
 			public static int[] MvxExpandableListView = new int[] {
-					2130771973};
+					2130771970};
 			
 			// aapt resource value: 0
 			public const int MvxExpandableListView_MvxGroupItemTemplate = 0;
 			
+			// aapt resource value: { 0x7F010005 }
 			public static int[] MvxImageView = new int[] {
-					2130771974};
+					2130771973};
 			
 			// aapt resource value: 0
 			public const int MvxImageView_MvxSource = 0;
 			
+			// aapt resource value: { 0x7F010001,0x7F010003 }
 			public static int[] MvxListView = new int[] {
-					2130771971,
-					2130771972};
-			
-			// aapt resource value: 1
-			public const int MvxListView_MvxDropDownItemTemplate = 1;
+					2130771969,
+					2130771971};
 			
 			// aapt resource value: 0
-			public const int MvxListView_MvxItemTemplate = 0;
+			public const int MvxListView_MvxDropDownItemTemplate = 0;
+			
+			// aapt resource value: 1
+			public const int MvxListView_MvxItemTemplate = 1;
 			
 			static Styleable()
 			{

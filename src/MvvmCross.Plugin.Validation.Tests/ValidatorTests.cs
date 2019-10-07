@@ -96,11 +96,12 @@ namespace MvvmCross.Plugin.Validation.Tests
         [Fact]
         public void Validation_should_succeed_with_a_valid_object()
         {
-            Assert.True(_validator.Validate(new TestViewModel
+            var result = _validator.Validate(new TestViewModel
             {
                 NotNull = "blah",
                 NotZero = 1
-            }).IsValid);
+            });
+            Assert.True(result.IsValid);
         }
 
         [Fact]
@@ -111,11 +112,13 @@ namespace MvvmCross.Plugin.Validation.Tests
                 NotNull = "blah",
                 NotZero = 1
             }).IsValid);
+
             Assert.False(_validator.Validate(new TestViewModel
             {
                 NotNull = "blah",
                 NotZero = 1
             }, "Test").IsValid);
+
             Assert.True(_validator.Validate(new TestViewModel
             {
                 NotNull = "blah",

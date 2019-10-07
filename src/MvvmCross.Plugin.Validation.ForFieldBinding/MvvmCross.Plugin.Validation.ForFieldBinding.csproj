@@ -10,8 +10,8 @@
     <OutputPath>..\bin\Release\Mvx\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="MvvmCross" Version="6.3.1" />
-    <PackageReference Include="MvvmCross.Plugin.FieldBinding" Version="6.3.1" />
+    <PackageReference Include="MvvmCross" Version="6.4.1" />
+    <PackageReference Include="MvvmCross.Plugin.FieldBinding" Version="6.4.1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MvvmCross.Plugin.Validation\MvvmCross.Plugin.Validation.csproj" />

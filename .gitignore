@@ -216,3 +216,4 @@ pip-log.txt
 .mr.developer.cfg
 /MvvmCross.Plugin.Validation/packages
 /MvvmCross.Plugin.Validation/.vs
+src/packages
